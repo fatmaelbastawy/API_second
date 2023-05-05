@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DbQzqW9aPuYgUT2kebiQ1S6mcXT51ksQadSMudfI2qo=",
+  "Source": "qena.api",
+  "BasePath": "_content/qena.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

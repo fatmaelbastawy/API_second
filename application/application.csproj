@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\context\context.csproj" />
+    <ProjectReference Include="..\DTOS\DTOS.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="features\categories\commands\add category\" />
+    <Folder Include="features\categories\commands\delete category\" />
+    <Folder Include="features\categories\commands\edit category\" />
+    <Folder Include="features\categories\queries\getallcategories\" />
+    <Folder Include="features\categories\queries\getcategorydetails\" />
+    <Folder Include="features\images\commands\" />
+    <Folder Include="features\images\quries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+</Project>
